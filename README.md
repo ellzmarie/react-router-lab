@@ -2,8 +2,14 @@
 # Stock tracking app 
 
 The application will use hard-coded stocks data.
-My stock tracking app should have the following features...
+My stock tracking app should have the following features:
 
+- Navigation
+- Dashboard
+- Stock
+- About
+
+###
 
 ## Navigation
 No matter what route the user is visiting, they should always see a navigation bar at the top of the window.
