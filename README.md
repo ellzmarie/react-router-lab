@@ -13,10 +13,6 @@ It should contain links to "Home" and "About" pages.
 ## Dashboard (/stocks)
 If a user visits /stocksor clicks "Home" in the navigation bar, they should be directed to a dashboard page. This page should list all of the stocks that the user is tracking, specifically their nameand symbol. These stocks should be pulled from stock-data.js.
 
-Bonus: Try rendering the stocks as per the image below.
-
-https://i.imgur.com/NP4mznx.png
-
 ## Stock (/stocks/:symbol)
 If a user clicks on one of the stocks listed in the Dashboard view, they should be directed to an individual stock show view. This view should display all of a stock's attributes.
 
