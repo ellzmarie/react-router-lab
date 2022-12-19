@@ -1,9 +1,8 @@
 
-
 function Home() {
     return (
       <div className="Home">
-          <h1>This is the homepage</h1>
+        <h2>This is the homepage</h2>
       </div>
     );
   }

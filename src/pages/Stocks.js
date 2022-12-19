@@ -13,12 +13,13 @@ function Stocks() {
   return (
     <div className="Stocks">
       {
-        stocks.map((stock) => {
+        stocks.map((cost) => {
+          const {name, symbol, price, change} = cost;
           return (
-            <Link to={`/stock/${stock.symbol}`}>
-              <h2>{stock.name}({stock.symbol})</h2>
-              <h2>{stock.lastPrice}</h2>
-              <h2>{stock.change}</h2>
+            <Link to={`/stocks/${symbol}`}>
+              <h2>{name}({symbol})</h2>
+              <h2>{price}</h2>
+              <h2>{change}</h2>
             </Link>
           )
         })
