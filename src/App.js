@@ -1,7 +1,7 @@
 import './App.css';
 import {Route, Routes} from 'react-router-dom';
 import About from './pages/About.js';
-import Stocks from './pages/Stocks.js';
+import Stock from './pages/Stock.js';
 import Home from './pages/Home.js';
 import Dashboard from './pages/Dashboard.js'
 import Nav from './components/Nav';
