@@ -9,6 +9,8 @@ My stock tracking app should have the following features:
 - Stock
 - About
 
+You can view the live site here: 
+
 ###
 
 ## Navigation
