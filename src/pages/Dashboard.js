@@ -16,7 +16,7 @@ function Dashboard () {
                 const {name, symbol, lastPrice, change} = stock
                 return (
                     <div>
-                        <h3>Company:</h3><p>{name} ({symbol})</p> 
+                        <Link to={`/stocks/${symbol}`}> <h3>Company:</h3><p>{name} ({symbol})</p></Link>
                         <h3>lastPrice:</h3><p>{lastPrice}</p>
                         <h3>Change:</h3><p>{change}</p>
                     </div>
