@@ -9,6 +9,7 @@ My stock tracking app should have the following features:
 - Stock
 - About
 
+# This link is not working, page not found
 You can view the live site here: https://spectacular-pony-8832cf.netlify.app/stocks
 
 ###
