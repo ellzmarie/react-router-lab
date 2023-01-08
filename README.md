@@ -9,7 +9,7 @@ My stock tracking app should have the following features:
 - Stock
 - About
 
-You can view the live site here: https://spectacular-pony-8832cf.netlify.app/stocks
+You can view the live site here: https://spectacular-pony-8832cf.netlify.app/
 
 ###
 
