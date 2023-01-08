@@ -19,11 +19,11 @@ function Stock() {
   useEffect(() => {
     getStock()
   }, [])
-
-  return (
-    <div className="Stock">
-      {!stocks === 'null' ? (
-      <h2>Loading...</h2>
+//added font-awesome spinner if 'null'
+return (
+  <div className="Stock">
+    {!stocks === 'null' ? (
+    <i class="fa fa-spinner fa-spin" style={{ fontSize:"24px", textAlign: "center", display: 'block'}}></i>
       ) : (
       <div>
           <h2>{stocks[0].symbol}</h2>
